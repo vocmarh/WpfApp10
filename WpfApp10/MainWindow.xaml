@@ -8,7 +8,7 @@
         Title="MainWindow" Height="800" Width="800" Background="Wheat">
     <StackPanel>
         <Border BorderBrush="White" BorderThickness="5" HorizontalAlignment="Center" VerticalAlignment="Center" Height="110" Margin="301,0">
-            <Image x:Name="MyImege" Source="Image/1.jpg" Width="180" Margin="0,0,0,-5"/>
+            <Image x:Name="MyImage" Source="Image/1.jpg" Width="180" Margin="0,0,0,-5"/>
             <Border.Effect>
                 <DropShadowEffect Color="Black" Direction="20" ShadowDepth="10" Opacity="0.5"/>
             </Border.Effect>
@@ -18,7 +18,7 @@
         </Border>
         <Border Height="175" Margin="368,0,247,0">
             <Border.Background>
-                <VisualBrush Visual="{Binding ElementName=MyImege}">
+                <VisualBrush Visual="{Binding ElementName=MyImage}">
                     <VisualBrush.Transform>
                         <ScaleTransform ScaleX="1" ScaleY="-1" CenterX="1" CenterY="140" />
                     </VisualBrush.Transform>
